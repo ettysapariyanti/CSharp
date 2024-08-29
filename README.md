@@ -63,5 +63,23 @@ namespace File2 {
 ```
 
 
+untuk instal library .Net yang bisa terkoneksi ke server mysql : 
+
+**dotnet add package MySql.Data --version 9.0.0**
+
+Lokasi librarynya di sini:
+
+[Situs Nuget](https://www.nuget.org/)
+
+[Situs Nuget untuk Mysql.Data - Konektor MySQL untuk .Net](https://www.nuget.org/packages/MySql.Data)
+
+Contoh perintahnya:
+
+> dotnet add package MySql.Data --version 9.0.0
+
+
+
+
+
 
 
