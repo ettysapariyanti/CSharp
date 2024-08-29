@@ -1,5 +1,8 @@
 # CSharp
 
+Kode dasar untuk terhubung ke server Mysql : 
+
+
 ```C#
 
 using System;
