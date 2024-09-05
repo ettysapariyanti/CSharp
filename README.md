@@ -78,7 +78,9 @@ Contoh perintahnya:
 > dotnet add package MySql.Data --version 9.0.0
 
 
+## Mencoba MySqlCommand
 
+Kita akan mencoba **MySqlCommand** untuk membuat tabel **MySQL**
 
 
 
