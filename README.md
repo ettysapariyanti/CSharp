@@ -160,4 +160,36 @@ Berikut ini adalah perintah untuk membuat jendela baru, ini adalah [Perintah CLI
 > dotnet new avalonia.window -na [namespace] -n [name]
 
 
+Di bawah ini adalah source code untuk membuat jendela yang di dalamnya ada tombol , yang jika di klik maka akan menampilkan jendela baru:
+
+```xaml
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="latihan5.MainWindow"
+        Title="Halaman Login">
+		
+		
+		<StackPanel Margin="20">
+		
+			<TextBlock Margin="0 5">Nama Pengguna : </TextBlock>
+			<TextBox Watermark="Isikan Nama Pengguna Anda"/>
+			<TextBlock Margin="0 5">Password : </TextBlock>
+			<TextBox Watermark="Isikan Password Anda" />
+			<TextBlock Margin="0 5">Alamat IP : </TextBlock>
+			<TextBox Watermark="Isikan Alamat IP Server" />
+			<Button Click="bukaJendela1">Membuka Jendela</Button>
+			
+			
+		</StackPanel>
+    
+</Window>
+
+
+
+```
+
+
 
