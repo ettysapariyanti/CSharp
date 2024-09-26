@@ -153,5 +153,11 @@ namespace File2 {
 ```
 
 
+## Menampilkan Jendela Baru
+
+Berikut ini adalah perintah untuk membuat jendela baru, ini adalah **[Perintah CLI nya]**(https://docs.avaloniaui.net/docs/0.10.x/getting-started/windows) : 
+
+> dotnet new avalonia.window -na [namespace] -n [name]
+
 
 
