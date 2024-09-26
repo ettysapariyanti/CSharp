@@ -191,5 +191,44 @@ Di bawah ini adalah source code untuk membuat jendela yang di dalamnya ada tombo
 
 ```
 
+Ini adalah source code C# untuk mengisi di dalam tombolnya, perintah untuk menampilkan jendela baru : 
 
+```C#
+
+using Avalonia.Controls;
+
+using Avalonia.Interactivity;
+
+using System.Diagnostics;
+
+namespace latihan5;
+
+public partial class MainWindow : Window
+{
+	
+	
+    public MainWindow()
+    {
+        InitializeComponent();
+    }
+	
+	
+
+	
+	
+	public void bukaJendela1(object source, RoutedEventArgs args) {
+		
+		Jendela1 jendela1 = new Jendela1();
+		
+		jendela1.Show();
+		
+		// Jendela1.Activate();
+		
+	}
+	
+	
+}
+
+
+```
 
